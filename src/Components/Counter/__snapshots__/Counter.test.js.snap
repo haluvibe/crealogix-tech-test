@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter When count prop equals 0 should render correctly without errors 1`] = `
+<Fragment>
+  <Header
+    title="Counter"
+  />
+  <div
+    className="current-count"
+  >
+    Current Count: 
+    0
+  </div>
+  <div>
+    <Button
+      handleClick={[MockFunction]}
+      value="Increment Counter"
+    />
+  </div>
+</Fragment>
+`;
